@@ -2,7 +2,7 @@
 {
   "name": "affordable-housing-development-contract-tests",
   "version": "1.0.0",
-  "description": "Run unit tests on this project.",
+  "description": "Smart contract test suite for affordable housing development with community engagement and financing coordination",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
   },
-  "author": "",
+  "author": "adehada974",
   "license": "ISC",
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^2.3.2",
